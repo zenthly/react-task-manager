@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+.React Task Manager
+React Task Manager is a simple and effective task management application built with React.js. It demonstrates modern React concepts including state management with useReducer, localStorage integration, and deployment via GitHub Pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+.Features
+Create, edit, and delete tasks
 
-## Available Scripts
+Mark tasks as completed or incomplete
 
-In the project directory, you can run:
+Assign priority levels (High, Medium, Low)
 
-### `npm start`
+Search and filter tasks
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Persist data locally using browser's localStorage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Responsive and clean user interface
 
-### `npm test`
+Easy deployment with GitHub Pages
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+.Demo
+Try the live demo here:
+https://zenthly.github.io/react-task-manager
 
-### `npm run build`
+.Getting Started
+Follow these steps to run the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+.Prerequisites
+Make sure you have Node.js and npm installed on your system.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+.Installation
+Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+bash
+Copy
+Edit
+git clone https://github.com/zenthly/react-task-manager.git
+Navigate to the project folder:
 
-### `npm run eject`
+bash
+Copy
+Edit
+cd react-task-manager
+Install the dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+bash
+Copy
+Edit
+npm install
+Start the development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+bash
+Copy
+Edit
+npm start
+Open your browser and go to:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+arduino
+Copy
+Edit
+http://localhost:3000
+Deployment
+This project uses the gh-pages package to deploy the production build to GitHub Pages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To deploy:
 
-## Learn More
+Build the project and deploy to GitHub Pages by running:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
+Copy
+Edit
+npm run deploy
+The app will be available at:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+arduino
+Copy
+Edit
+https://zenthly.github.io/react-task-manager
+Built With
+React — Front-end JavaScript library
 
-### Code Splitting
+npm — Package manager
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+gh-pages — GitHub Pages deployment
 
-### Analyzing the Bundle Size
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Author
+Sezibera Obed — GitHub Profile
 
-### Making a Progressive Web App
+License
+This project is licensed under the MIT License — see the LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
